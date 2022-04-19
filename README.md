@@ -15,7 +15,7 @@ You can install the most recent version of `GPcov` in the following way
 
 ``` r
 library(devtools)
-devtools::install.github("avramaral/GPcov")
+devtools::install_github("avramaral/GPcov")
 ```
 
 ## Example
