@@ -7,11 +7,11 @@ white_noise <- function (p, q, sig2, a) {
   result
 }
 
-brownian_motion <- function (p, q, sig2) {
+brownian_motion <- function (p, q) {
   if (length(p) != 1) {
     stop("Brownian motion covariance function can only be computed for 'd = 1'.")
   } else {
-    result <- sig2 * min(p, q)
+    result <- min(p, q)
   }
   result
 }

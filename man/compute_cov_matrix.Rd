@@ -9,7 +9,7 @@ compute_cov_matrix(points, cov_func, ...)
 \arguments{
 \item{points}{A data frame with \code{n} rows and \code{d} columns.}
 
-\item{cov_func}{A covariance model. Options are \code{white_noise}, \code{brownian_motion}, \code{exponential}, and \code{matern_model}. For all functions, one can provide \code{sig2}.
+\item{cov_func}{A covariance model. Options are \code{white_noise}, \code{brownian_motion}, \code{exponential}, and \code{matern_model}. For all functions (except for \code{brownian_motion}), one can provide \code{sig2}.
 Also, for the \code{exponential} model, one has to provide the parameter \code{beta}, and for the \code{matern_model} model, the parameters \code{nu} and \code{beta}.
 See \url{https://avramaral.github.io/STAT294/rpack.html} for more details.}
 
