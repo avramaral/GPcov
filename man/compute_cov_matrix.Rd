@@ -2,7 +2,7 @@
 % Please edit documentation in R/compute_cov_matrix.R
 \name{compute_cov_matrix}
 \alias{compute_cov_matrix}
-\title{Compute covariance matrix for a stationary Gaussian process}
+\title{Compute covariance matrix for a Gaussian process}
 \usage{
 compute_cov_matrix(points, cov_func, ...)
 }
@@ -19,7 +19,7 @@ See \url{https://avramaral.github.io/STAT294/rpack.html} for more details.}
 An \code{n} by \code{n} covariance matrix.
 }
 \description{
-Compute covariance matrix for a stationary Gaussian process
+Compute covariance matrix for a Gaussian process
 }
 \examples{
 x <- seq(1, 10, 1)

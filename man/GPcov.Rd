@@ -3,7 +3,7 @@
 \docType{package}
 \name{GPcov}
 \alias{GPcov}
-\title{GPcov: A package for computing the covariance matrix for stationary Gaussian processes}
+\title{GPcov: A package for computing the covariance matrix for Gaussian processes}
 \description{
 The \code{GPcov} package provides one important function, namely, \code{compute_cov_matrix()}.
 }

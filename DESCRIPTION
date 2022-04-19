@@ -1,9 +1,9 @@
 Package: GPcov
-Title: Compute covariance matrix for stationary Gaussian processes 
+Title: Compute covariance matrix for Gaussian processes 
 Version: 0.0.1.0
 Authors@R: 
     person("André", "Amaral", , "avramaral@gmail.com", role = c("aut", "cre"))
-Description: This package provides functions to create a covariance matrix for stationary Gaussian processes with different dependence structures.
+Description: This package provides functions to create a covariance matrix for Gaussian processes with different dependence structures.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

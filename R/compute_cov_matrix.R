@@ -1,4 +1,4 @@
-#' Compute covariance matrix for a stationary Gaussian process
+#' Compute covariance matrix for a Gaussian process
 #'
 #' @param points A data frame with `n` rows and `d` columns.
 #' @param cov_func A covariance model. Options are `white_noise`, `brownian_motion`, `exponential`, and `matern_model`. For all functions, one can provide `sig2`.

@@ -1,4 +1,4 @@
-#' GPcov: A package for computing the covariance matrix for stationary Gaussian processes
+#' GPcov: A package for computing the covariance matrix for Gaussian processes
 #'
 #' The `GPcov` package provides one important function, namely, `compute_cov_matrix()`.
 #'
