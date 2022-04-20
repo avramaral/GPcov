@@ -15,14 +15,14 @@ You can install the most recent version of `GPcov` in the following way
 
 ``` r
 library(devtools)
-devtools::install_github("avramaral/GPcov")
+devtools::install_github("avramaral/GPcov", build_vignettes = TRUE)
 ```
 
 ## Example
 
 As a simple example, suppose we want to simulate `n = 10` curves from a
 zero-mean Gaussian process covariance function given by
-![C(x_p, x_q) = \\min(x_p, x_q)](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;C%28x_p%2C%20x_q%29%20%3D%20%5Cmin%28x_p%2C%20x_q%29 "C(x_p, x_q) = \min(x_p, x_q)")
+![C(x(p), x(q)) = \\min(p, q)](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;C%28x%28p%29%2C%20x%28q%29%29%20%3D%20%5Cmin%28p%2C%20q%29 "C(x(p), x(q)) = \min(p, q)")
 (namely Brownian Motion). This can be achieved by using the
 `compute_cov_matrix()` function from `GPcov` package, and the
 `mvrnorm()` function from the `MASS` package.

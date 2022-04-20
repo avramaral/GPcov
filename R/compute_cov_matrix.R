@@ -3,7 +3,7 @@
 #' @param points A data frame with `n` rows and `d` columns.
 #' @param cov_func A covariance model. Options are `white_noise`, `brownian_motion`, `exponential`, and `matern_model`. For all functions (except for `brownian_motion`), one can provide `sig2`.
 #' Also, for the `exponential` model, one has to provide the parameter `beta`, and for the `matern_model` model, the parameters `nu` and `beta`.
-#' See \url{https://avramaral.github.io/STAT294/rpack.html} for more details.
+#' See \url{https://avramaral.github.io/GPcov/articles/introduction.html} for more details.
 #' @param ... Additional parameters. See above.
 #'
 #' @return An `n` by `n` covariance matrix.
